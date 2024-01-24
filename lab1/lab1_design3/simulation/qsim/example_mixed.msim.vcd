@@ -1,0 +1,144 @@
+$comment
+	File created using the following command:
+		vcd file example_mixed.msim.vcd -direction
+$end
+$date
+	Tue Jan 23 15:00:52 2024
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module example_mixed_vhd_vec_tst $end
+$var wire 1 ! f $end
+$var wire 1 " w1 $end
+$var wire 1 # w2 $end
+$var wire 1 $ w3 $end
+$var wire 1 % w4 $end
+$var wire 1 & x2 $end
+
+$scope module i1 $end
+$var wire 1 ' gnd $end
+$var wire 1 ( vcc $end
+$var wire 1 ) unknown $end
+$var wire 1 * devoe $end
+$var wire 1 + devclrn $end
+$var wire 1 , devpor $end
+$var wire 1 - ww_devoe $end
+$var wire 1 . ww_devclrn $end
+$var wire 1 / ww_devpor $end
+$var wire 1 0 ww_f $end
+$var wire 1 1 ww_w1 $end
+$var wire 1 2 ww_w2 $end
+$var wire 1 3 ww_w3 $end
+$var wire 1 4 ww_w4 $end
+$var wire 1 5 ww_x2 $end
+$var wire 1 6 \~QUARTUS_CREATED_GND~I_combout\ $end
+$var wire 1 7 \w1~input_o\ $end
+$var wire 1 8 \x2~input_o\ $end
+$var wire 1 9 \w2~input_o\ $end
+$var wire 1 : \w4~input_o\ $end
+$var wire 1 ; \w3~input_o\ $end
+$var wire 1 < \inst|inst3~0_combout\ $end
+$var wire 1 = \ALT_INV_w4~input_o\ $end
+$var wire 1 > \ALT_INV_w2~input_o\ $end
+$var wire 1 ? \ALT_INV_x2~input_o\ $end
+$var wire 1 @ \ALT_INV_w3~input_o\ $end
+$var wire 1 A \ALT_INV_w1~input_o\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+1(
+x)
+1*
+1+
+1,
+1-
+1.
+1/
+00
+01
+02
+03
+04
+05
+x6
+07
+08
+09
+0:
+0;
+0<
+1=
+1>
+1?
+1@
+1A
+$end
+#20000
+1"
+11
+17
+0A
+#30000
+1%
+14
+1:
+0=
+#50000
+1$
+13
+1;
+0@
+1<
+10
+1!
+#60000
+0"
+01
+07
+1A
+0<
+00
+0!
+#80000
+0%
+1#
+1&
+04
+12
+15
+18
+19
+0:
+1=
+0>
+0?
+#100000
+0$
+03
+0;
+1@
+#120000
+0#
+02
+09
+1>
+#140000
+0&
+05
+08
+1?
+#160000
